@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "test": "./node_modules/typescript/bin/tsc main.ts && node main.js && rm *.js"
+  },
+  "dependencies": {
+    "typescript": "^5.6.3"
+  }
+}
