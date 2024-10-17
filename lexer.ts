@@ -38,7 +38,7 @@ export enum TokenType {
     IDENTIFIER = "IDENTIFIER"
 }
 
-class Token {
+export class Token {
     lexeme: string;
     type: TokenType;
 
